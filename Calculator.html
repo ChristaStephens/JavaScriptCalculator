@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Christa's Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+<body>
+    <h1>hi</h1>
+
+    <form>
+        <!--Creating a form for users
+        to inpt values to calulate-->
+        Value 1: <input type="text" id="value1">
+        Value 2: <input type="text" id="value2">
+        <!--Creating a dropdown so
+        users can choice what to do 
+        with the two numbers. -->
+        Operator: <select id="operator">
+            <option value="add">Add</option>
+            <option value="min">Minus</option>
+            <option value="div">Divide</option>
+            <option value="mul">Multiple</option>
+        </select>
+        <!--allows you to submit after you choose
+            the operator.-->
+        <button type="button">Calculate</button>
+    </form>
+
+    <!--This is all just the face value of what will 
+    happen behind the scenes. The calculations doesn't
+    take place without the JavaScript.-->
+
+
+</body>
+<script src="Calculator.js"></script>
+</html>
