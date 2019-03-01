@@ -24,5 +24,6 @@ function calc(){
     }else if(op =="mul"){
         calculate = a*b;
     }
-    console.log(calculate);
+    //inner html -inserts the html inbetween the pair of html tags
+    document.querySelector("#result").innerHTML = "Your result is "+ calculate;
 }
